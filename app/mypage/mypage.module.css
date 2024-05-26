@@ -1,0 +1,121 @@
+/* ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅ */
+/* ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅ */
+/* ✅ mypage.html ✅*/
+
+/* #mypage__section */
+#mypage__section {
+  padding: 105px 0;
+  background-color: #fafafa;
+}
+
+/* .mypage__box */
+.mypage__box {
+}
+
+.mypage__box h2 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* .mypage__flex */
+.mypage__box .mypage__flex {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+/* .mypage__left */
+.mypage__flex .mypage__left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 25px;
+}
+.mypage__flex .mypage__left .profile {
+  width: 150px;
+  height: 150px;
+  background-color: #000;
+}
+.mypage__flex .mypage__left .profile img {
+  width: 100%;
+}
+.mypage__flex .mypage__left .real__upload {
+  display: block;
+  width: 215px;
+  margin-top: 7px;
+}
+
+/* .mypage__right */
+.mypage__box .mypage__flex .mypage__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.mypage__box .mypage__flex .mypage__right .name {
+  display: block;
+  width: 200px;
+  padding: 4px 4px 4px 4px;
+  margin-bottom: -1px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+}
+.mypage__box .mypage__flex .mypage__right .email {
+  display: block;
+  width: 200px;
+  padding: 4px 4px 4px 4px;
+  margin-bottom: 7px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+}
+
+/* .gender__flex */
+.mypage__box .mypage__flex .mypage__right .gender__flex {
+  margin-top: 5px;
+}
+.mypage__box .mypage__flex .mypage__right .gender__flex #man {
+  margin-right: 2px;
+}
+.mypage__box .mypage__flex .mypage__right .gender__flex label {
+}
+.mypage__box .mypage__flex .mypage__right .gender__flex #woman {
+  margin-left: 10px;
+  margin-right: 2px;
+}
+
+/* .update__btn */
+.mypage__box .mypage__flex .mypage__right .update__btn {
+  margin-top: 17px;
+}
+.mypage__box .mypage__flex .mypage__right .update {
+  border: none;
+  background-color: #e8e6e6;
+  color: #5d5d5d;
+  width: 95px;
+  padding: 7px 0;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.mypage__box .mypage__flex .mypage__right .update:hover {
+  color: #fff;
+  background-color: #000;
+}
+.mypage__box .mypage__flex .mypage__right .cancel {
+  border: none;
+  background-color: #e8e6e6;
+  color: #5d5d5d;
+  width: 95px;
+  padding: 7px 0;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.mypage__box .mypage__flex .mypage__right .cancel:hover {
+  color: #fff;
+  background-color: #000;
+}

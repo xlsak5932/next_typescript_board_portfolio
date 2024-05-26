@@ -1,0 +1,71 @@
+#len__box {
+  padding: 105px 0;
+}
+.len__title {
+  font-size: 45px;
+  text-align: center;
+  margin-top: 105px;
+}
+.total__box {
+  display: flex;
+  justify-content: center;
+}
+
+.len__introduce {
+}
+
+.box__left {
+}
+
+.img__file {
+  width: 200px;
+  border-bottom: 1px solid #ccc;
+  margin-top: 10px;
+}
+.box__right {
+  margin-left: 25px;
+}
+.box__right ul li {
+  list-style: circle;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.box__right ul li .time {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 3px;
+}
+.box__right ul li .person {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 3px;
+}
+.box__right ul li .edu {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 3px;
+}
+.box__right ul li .target {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 3px;
+}
+.box__right ul li .fee {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.register {
+  width: 150px;
+  padding: 3px 0;
+  background-color: #615c5c;
+  color: #fff;
+  border-radius: 4px;
+  margin-top: 15px;
+  transition: all 0.3s;
+}
+.register:hover {
+  background-color: #898989;
+}

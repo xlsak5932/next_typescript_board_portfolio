@@ -1,0 +1,36 @@
+#len__box {
+  padding: 105px 0;
+}
+.len__title {
+  font-size: 45px;
+  text-align: center;
+  margin-top: 105px;
+}
+.total__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.len__introduce {
+}
+
+.box__left {
+}
+.box__right {
+  margin-left: 25px;
+}
+.box__right ul {
+}
+.box__right ul li {
+  list-style: circle;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.left__right__box {
+  display: flex;
+  flex-direction: row;
+  margin-top: 35px;
+}

@@ -1,0 +1,189 @@
+/* ✅ event.html ✅*/
+
+#event__section {
+  padding: 105px 0;
+}
+
+/* .event__box */
+.event__box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+#event__section h2 {
+  font-size: 40px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+/* .event__write__board */
+.event__write__board {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  margin-right: 15px;
+
+  width: 32%;
+  border: 1px solid #cfcfcf;
+  border-radius: 7px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+.event__write__board:hover {
+  box-shadow: 5px 2px 2px 2px gray;
+}
+.event__write__board:last-child {
+  margin-right: 0px;
+}
+
+/* .board__top */
+.board__top {
+}
+.board__top img {
+}
+
+/* .board__bottom */
+.board__bottom {
+  width: 100%;
+  border-top: 1px solid #cfcfcf;
+}
+.board__bottom a {
+}
+
+.board__bottom a p.bottom__title {
+  /* font-size: 16px; */
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 0px 7px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  line-height: 1.2;
+  /*        height: 4.8em;*/
+  text-align: left;
+  word-wrap: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.board__bottom a p.word {
+  /* padding: 10px; */
+  margin: 10px;
+  /* outline: 1px solid black; */
+  display: block;
+  color: black;
+  /* width: 630px; */
+  /* font-size: 20px; */
+  /* font-weight: bolder !important; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  line-height: 1.2;
+  /*        height: 4.8em;*/
+  text-align: left;
+  word-wrap: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.board__bottom a p.bottom__content {
+  margin: 10px 0;
+  padding-left: 10px;
+}
+.board__bottom a p.bottom__year {
+  font-size: 15px;
+  color: #5f5f5f;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-bottom: 7px;
+}
+
+/* .event__box__btn */
+.event__box__btn {
+  margin-top: 35px;
+}
+.event__box__btn form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.event__box__btn form ul {
+  display: flex;
+}
+.event__box__btn form ul li {
+}
+.event__box__btn form ul li a {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: rgba(189, 189, 189, 0.2);
+  transition: all 0.3s;
+}
+.event__box__btn {
+  display: flex;
+  justify-content: center;
+}
+.event__box__btn ul {
+  display: flex;
+}
+.event__box__btn ul li {
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: rgba(189, 189, 189, 0.2);
+
+  transition: all 0.3s;
+}
+.event__box__btn ul li .active {
+  display: block;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background-color: #000;
+  color: #fff;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+.event__box__btn ul li .active:hover {
+  background-color: #949494;
+  color: #000;
+}
+.event__box__btn .event__write__btn {
+  padding: 9px 35px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 7px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.event__box__btn .event__write__btn:hover {
+  background-color: #949494;
+  color: #000;
+  font-weight: bold;
+}
+
+.event__box__btn form ul li a:hover {
+  color: #fff;
+  background-color: #000;
+}
+.event__box__btn form a.event__write__btn {
+  padding: 9px 35px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 7px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.event__box__btn form a.event__write__btn:hover {
+  background-color: #949494;
+  color: #000;
+  font-weight: bold;
+}

@@ -1,0 +1,61 @@
+#lesson__section {
+  padding: 75px 0;
+}
+#lesson__section h2 {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.scriptCalendar {
+  border-spacing: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.scriptCalendar > thead > tr > td {
+  width: 150px;
+  height: 25px;
+  /* vertical-align: top; */
+  text-align: center;
+  border: 1px solid #cecccc;
+  border-collapse: collapse;
+  padding: 7px 0px 0px 7px;
+}
+.scriptCalendar > thead > tr:first-child > td {
+  font-weight: bold;
+}
+.scriptCalendar > thead > tr:last-child > td {
+  /* background-color: #000000; */
+}
+
+.scriptCalendar > tbody > tr > td {
+  width: 150px;
+  height: 125px;
+  vertical-align: top;
+  border: 1px solid #cecccc;
+  border-collapse: collapse;
+  padding: 7px 0px 0px 7px;
+}
+
+/* .first__tr */
+.first__tr {
+  height: 65px;
+  text-align: center;
+  vertical-align: center;
+}
+.calendarBtn {
+  font-size: 25px;
+  cursor: pointer;
+}
+.font-size {
+  font-size: 25px;
+}
+#calYear {
+}
+#calMonth {
+}

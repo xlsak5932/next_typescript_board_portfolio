@@ -1,0 +1,39 @@
+/* ✅ cycleIntro..html ✅*/
+
+/* #introduce__section */
+#introduce__section {
+  background-color: #eeecec;
+  padding: 105px 0;
+}
+
+.introduce__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#introduce__section h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+/* .introduce__write */
+.introduce__write {
+  text-align: center;
+}
+
+/* .introduce__box */
+.introduce__box2 {
+  width: 500px;
+}
+
+.introduce__box2 .introduce__img {
+  width: 100%;
+}
+.introduce__write .company__career {
+  margin-top: 55px;
+}
+/* .introduce__image */
+.introduce__image {
+  /* object-fit: cover; */
+}

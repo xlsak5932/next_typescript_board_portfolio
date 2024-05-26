@@ -1,0 +1,282 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ✅ reset.css */
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+/* ✅ heder.css */
+/* #header */
+#header {
+  padding: 25px 0;
+  background-color: #d1d0d0;
+}
+
+/* #header .header__top__container */
+.header__top__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* #header .header__top__left */
+.header__top__left {
+}
+.header__top__left a {
+}
+
+/* #header .header__top__right */
+.header__top__right {
+}
+.header__top__right ul {
+  display: flex;
+}
+.header__top__right ul li {
+  position: relative;
+  padding: 10px 15px;
+}
+.header__top__right ul li:after {
+  content: '';
+  position: absolute;
+  top: 17px;
+  left: -2px;
+  display: block;
+  width: 2px;
+  height: 13px;
+  background-color: #000;
+}
+
+.header__top__right ul li:first-child:after {
+  display: none;
+}
+.header__top__right ul li a {
+  display: inline-block;
+
+  font-size: 17px;
+}
+.header__top__right ul li a:hover {
+  text-decoration: underline;
+}
+.header__top__right ul li button:hover {
+  text-decoration: underline;
+}
+
+/* #header .header__top__container */
+.header__bottom__container {
+  margin-top: 25px;
+}
+#nav {
+}
+#nav ul {
+  display: flex;
+  justify-content: center;
+}
+#nav ul li {
+  position: relative;
+  padding: 0px 15px;
+}
+#nav ul li:first-child::after {
+  display: none;
+}
+#nav ul li::after {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: 0;
+  display: block;
+  width: 2px;
+  height: 13px;
+  background-color: #000;
+}
+
+#nav ul li a {
+  display: inline-block;
+  font-size: 17px;
+}
+#nav ul li a.kakao__menu {
+  color: rgb(255, 255, 0);
+  font-weight: bold;
+}
+#nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* #footer */
+#footer {
+  padding: 20px 0px;
+  background-color: #c9c9c9;
+}
+
+/* .footer__container */
+.footer__container {
+  display: flex;
+  justify-content: center;
+}
+
+/* ✅ .footer__left */
+.footer__left {
+  margin-right: 25px;
+}
+.footer__left a {
+}
+
+/* .footer__right */
+.footer__right {
+}
+.footer__right p {
+}
+.footer__right p span {
+}
+
+/* .footer__right__first */
+.footer__right .footer__right__first {
+}
+.footer__right .footer__right__first li {
+  margin-bottom: 10px;
+  list-style: circle;
+}
+
+/* .footer__right__second */
+.footer__right ul.footer__right__second {
+  display: flex;
+  margin: 10px 0px;
+}
+.footer__right ul.footer__right__second li {
+  position: relative;
+  padding: 0px 15px 0px 0px;
+}
+.footer__right ul.footer__right__second li:hover a {
+  text-decoration: underline;
+}
+.footer__right ul.footer__right__second li:first-child:after {
+  display: none;
+}
+.footer__right ul.footer__right__second li:after {
+  content: '';
+  position: absolute;
+  top: 7px;
+  left: -8px;
+  display: block;
+  width: 2px;
+  height: 10px;
+  background-color: #000;
+}
+.footer__right ul.footer__right__second li a {
+}
+.footer__right ul.footer__right__second li a:hover {
+  text-decoration: under;
+}
+
+/* ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅ */
+/* 말줄임 코드 + -webkit-line-clamp로 조절하면 됨 */
+
+/* ✅ (말줄임) event의 제목에서 사용 중 */
+.word {
+  margin: 100px;
+  /* outline: 1px solid black; */
+  display: block;
+  color: black;
+  /* width: 630px; */
+  /* font-size: 20px; */
+  /* font-weight: bolder !important; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  line-height: 1.2;
+  /*        height: 4.8em;*/
+  text-align: left;
+  word-wrap: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+/* notice의 tbody안의 td의 제목에서 사용 중임 */
+.word2 {
+  /* margin: 100px; */
+  /* outline: 1px solid black; */
+  display: block;
+  /* color: black; */
+  width: 100%;
+  /* font-size: 20px; */
+  /* font-weight: bolder !important; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  line-height: 1.2;
+  /* height: 4.8em; */
+  text-align: left;
+  word-wrap: break-word;
+  /* height: 40px; */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+/* 메인 페이지 "팝업창" */
+
+/* ✅ .popup */
+.popup {
+  position: fixed;
+  width: 500px;
+  border: 1px solid #000;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+/* .popup__box */
+.popup .popup__box {
+  padding: 25px;
+}
+.popup .popup__box h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.popup .popup__box p {
+}
+
+/* .popup__flex */
+.popup__flex {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* .popup__day */
+.popup .popup__day {
+}
+.popup .popup__day #day__check {
+}
+.popup .popup__day .day__check {
+}
+
+/* .popup__close */
+a.popup__close {
+  display: block;
+  padding: 5px 40px;
+  margin-left: 15px;
+  background-color: #000;
+  color: #fff;
+}
+.ac {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+}
