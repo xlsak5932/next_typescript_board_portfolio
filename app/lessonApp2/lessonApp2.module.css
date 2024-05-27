@@ -1,0 +1,292 @@
+/* ✅ lessonApp2.html ✅*/
+
+/* #lesson__section2 */
+#lesson__section2 {
+  padding: 105px 0;
+}
+
+/* .lesson__box */
+.lesson__box2 {
+}
+.lesson__box2 h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 37px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #dddddd;
+}
+
+#lesson__section2 .lesson__sort__box {
+  display: flex;
+}
+
+/* lesson__left__tab */
+.lesson__box2 .lesson__left__tab {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  margin-right: 5%;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+.lesson__box2 .lesson__left__tab:hover {
+  box-shadow: 5px 5px 5px 5px gray;
+}
+.lesson__box2 .lesson__left__tab h2.autonomy {
+  font-size: 30px;
+}
+
+/* lesson__left__tab  form */
+.lesson__box2 .lesson__left__tab form {
+  width: 100%;
+}
+.lesson__box2 .lesson__left__tab form .lesson__left__copy__box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 45px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #c9c9c9;
+}
+.lesson__box2 .lesson__left__tab form .lesson__left__copy__box:last-child {
+  border: none;
+}
+.lesson__box2 .lesson__left__tab p.lesson__title {
+  margin-right: 35px;
+  font-size: 18px;
+}
+
+/* .lesson__left__tab  .time__box */
+.lesson__box2 .lesson__left__tab .time__box {
+}
+
+/* .lesson__left__tab  .time__box .time */
+.lesson__box2 .lesson__left__tab .time__box .time {
+  display: flex;
+  align-items: center;
+}
+.lesson__box2 .lesson__left__tab .time__box .time input {
+}
+.lesson__box2 .lesson__left__tab .time__box .time p {
+}
+
+/* .lesson__left__tab  .time__box .ronn__number */
+.lesson__box2 .lesson__left__tab .time__box .ronn__number {
+  padding-top: 7px;
+  font-size: 18px;
+}
+.lesson__box2 .lesson__left__tab .time__box .ronn__number .one {
+}
+.lesson__box2 .lesson__left__tab .time__box .ronn__number .two {
+}
+.lesson__box2 .lesson__left__tab .time__box .ronn__number .three {
+}
+
+/* .avatar */
+.lesson__box2 .lesson__left__tab .avatar {
+  display: flex;
+  flex-direction: column;
+}
+.lesson__box2 .lesson__left__tab button.lesson__btn__application {
+  width: 85px;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 65px;
+  border: none;
+  font-size: 16px;
+  background-color: #b9b6b6;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.lesson__box2 .lesson__left__tab button.lesson__btn__application:hover {
+  background-color: #909090;
+  color: #cfcece;
+}
+
+.lesson__box2 .lesson__left__tab .avatar .lesson__btn__update {
+  display: inline-block;
+  width: 85px;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 65px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #000;
+  font-size: 16px;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.lesson__box2 .lesson__left__tab .avatar .lesson__btn__update:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.lesson__box2 .lesson__left__tab .avatar .lesson__btn__delete {
+  width: 85px;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 65px;
+  border: none;
+  font-size: 16px;
+  background-color: #c64949;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.lesson__box2 .lesson__left__tab .avatar .lesson__btn__delete:hover {
+  background-color: #a15e5e;
+  color: #cfcece;
+}
+
+/* 👍👍👍👍👍👍👍👍👍👍👍👍👍 */
+/* 👍👍👍👍👍👍👍👍👍👍👍👍👍 */
+/* 👍👍👍👍👍👍👍👍👍👍👍👍👍 */
+
+/* lesson__right__tab */
+.lesson__box2 .lesson__right__tab {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  margin-right: 5%;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+.lesson__box2 .lesson__right__tab:hover {
+  box-shadow: 5px 5px 5px 5px gray;
+}
+.lesson__box2 .lesson__right__tab h2.common {
+  font-size: 30px;
+}
+.lesson__box2 .lesson__right__copy__box {
+}
+
+/* lesson__left__tab  form */
+.lesson__box2 .lesson__right__tab form {
+  width: 100%;
+}
+.lesson__box2 .lesson__right__tab form .lesson__right__copy__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 45px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #c9c9c9;
+}
+.lesson__box2 .lesson__right__tab form .lesson__right__copy__box:last-child {
+  border: none;
+}
+.lesson__box2 .lesson__right__tab p.lesson__title {
+  margin-right: 35px;
+  font-size: 18px;
+}
+.lesson__box2 .lesson__right__tab button.lesson__application {
+  width: 85px;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 65px;
+  border: none;
+  font-size: 16px;
+  background-color: #b9b6b6;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.lesson__box2 .lesson__right__tab button.lesson__application:hover {
+  background-color: #909090;
+  color: #cfcece;
+}
+
+/* .lesson__right__tab  .time__box */
+.lesson__box2 .lesson__right__tab .time__box {
+}
+
+/* .lesson__right__tab  .time__box .time */
+.lesson__box2 .lesson__right__tab .time__box .time {
+  display: flex;
+  align-items: center;
+}
+.lesson__box2 .lesson__right__tab .time__box .time input {
+}
+.lesson__box2 .lesson__right__tab .time__box .time p {
+}
+
+/* .lesson__right__tab  .time__box .ronn__number */
+.lesson__box2 .lesson__right__tab .time__box .ronn__number {
+  padding-top: 7px;
+  font-size: 18px;
+}
+.lesson__box2 .lesson__right__tab .time__box .ronn__number .one {
+}
+.lesson__box2 .lesson__right__tab .time__box .ronn__number .two {
+}
+.lesson__box2 .lesson__right__tab .time__box .ronn__number .three {
+}
+
+/* .avatar */
+.lesson__box2 .lesson__right__tab .avatar {
+  display: flex;
+  flex-direction: column;
+}
+.lesson__box2 .lesson__right__tab button.lesson__btn__application {
+  width: 85px;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 65px;
+  border: none;
+  font-size: 16px;
+  background-color: #b9b6b6;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.lesson__box2 .lesson__right__tab button.lesson__btn__application:hover {
+  background-color: #909090;
+  color: #cfcece;
+}
+
+.lesson__box2 .lesson__right__tab .avatar .lesson__btn__update {
+  display: inline-block;
+  width: 85px;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 65px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #000;
+  font-size: 16px;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.lesson__box2 .lesson__right__tab .avatar .lesson__btn__update:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.lesson__box2 .lesson__right__tab .avatar .lesson__btn__delete {
+  width: 85px;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 65px;
+  border: none;
+  font-size: 16px;
+  background-color: #c64949;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.lesson__box2 .lesson__right__tab .avatar .lesson__btn__delete:hover {
+  background-color: #a15e5e;
+  color: #cfcece;
+}

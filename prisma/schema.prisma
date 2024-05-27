@@ -1,0 +1,78 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+// npx prisma generate : 스키마 변경시 적용되게 해줌
+// npx prisma migrate dev --name gyo
+
+// 유효 아이디: idx String   @id @default(uuid())
+// ? : 옵셔널 / 값이 있을수도 있고, 없을수도 있다.
+model users{
+  //✅ @id @default(uuid())
+  // @default(uuid()): 이 부분은 새로운 레코드가 생성될 때 기본값으로 사용될 것을 나타냅니다. 
+  // uuid() 함수는 Universally Unique Identifier(범용 고유 식별자)를 생성하며, 
+  // 이를 통해 새로운 레코드에 대한 고유한 값을 생성합니다. 즉, 이 부분은 새로운 레코드가 생성될 때 
+  // 해당 필드에 UUID 값이 자동으로 할당된다는 것을 의미합니다.
+  idx String   @id @default(uuid())
+  name String?
+  email String? @unique
+  birth_year Int?
+  gender String?
+  phone_number String?
+  nick_name String?
+  img_url String?
+  created_at DateTime  @default(now())
+  joined_lesson String?
+  user_type String @default("individual")
+  // fields의 idx는 model lesson임
+  // model users의 "joined_lesson"이 model lesson의 "idx"의 값을 참조 함.
+  lesson lesson? @relation("lesson_user", fields: [joined_lesson], references: [idx])
+}
+
+// lesson이라는 테이블 생성
+model lesson{
+  idx  String   @id @default(uuid())
+  lesson_class Int
+  lesson_type String
+  current_people  Int
+  class_number Int
+  class_time String
+  created_at DateTime  @default(now())
+  // lesson[] : 하나의 레슨에 여러개의 user가 들어간다.
+  // ✅몰르겠어 물어봐
+  user users[] @relation("lesson_user")
+}
+
+// 공지사항 글 저장
+model notice {
+  idx Int @id @default(autoincrement())
+  title String
+  content String
+  views Int @default(0)
+  date String
+}
+
+// 이벤트 글 저장
+model event {
+  idx Int @id @default(autoincrement())
+  title String
+  content String
+  date String
+}
+
+// 교육과정 글 저장
+model education {
+  idx Int @id @default(autoincrement())
+  edu_time String
+  edu_person Int @default(0)
+  edu_description String
+  edu_target String
+  edu_fee String
+}

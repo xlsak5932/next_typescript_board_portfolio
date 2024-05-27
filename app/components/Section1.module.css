@@ -1,0 +1,20 @@
+/* #section1 */
+#section1 {
+  /* height: 300px; */
+  background-color: #333333;
+}
+.slide__box {
+  /* height: 300px; */
+}
+.slide__box img {
+  /* background-size: contain; */
+}
+
+.popup {
+  transition: opacity 0.3s ease;
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}

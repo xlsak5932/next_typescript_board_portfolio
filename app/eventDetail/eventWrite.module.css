@@ -1,0 +1,76 @@
+/* eventWrite.html */
+
+/* #event__write */
+#event__write {
+  padding: 35px 0;
+}
+#event__write h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+/* .notice__write__box */
+.event__write__box {
+}
+.event__write__box form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+}
+.event__write__box form .event__title {
+  width: 750px;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+}
+.event__write__box form .event__content {
+  /* resize: none; */
+  width: 750px;
+  height: 350px;
+  overflow-y: scroll;
+  padding: 15px;
+  border: 1px solid #ccc;
+}
+.event__write__box input.real_upload {
+  margin-top: 15px;
+  border-bottom: 1px solid #000;
+}
+
+/* .event__write__box form */
+.event__write__box .btn__box {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+
+.event__write__box form .event__regi__btn {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 7px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.event__write__box form .event__regi__btn:hover {
+  background-color: #ccc;
+  color: #000;
+}
+.event__cencel__btn {
+  display: block;
+  padding: 10px 20px;
+  transition: all 0.3s;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+.event__cencel__btn:hover {
+  display: block;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+}

@@ -1,0 +1,36 @@
+{
+  "name": "cycle-alive",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://xlsak5932.github.io/next_typescript_board_portfolio",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.9.1",
+    "axios": "^1.6.7",
+    "next": "14.1.0",
+    "next-auth": "^4.24.5",
+    "react": "^18",
+    "react-cookie": "^7.1.0",
+    "react-dom": "^18",
+    "react-hook-form": "^7.50.1",
+    "react-responsive-carousel": "^3.2.23"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "gh-pages": "^6.1.1",
+    "postcss": "^8",
+    "prisma": "^5.9.1",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}
